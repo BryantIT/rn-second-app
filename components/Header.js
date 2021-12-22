@@ -1,8 +1,10 @@
 import React from 'react'
+import colors from '../constants/colors'
 import { View, Text, StyleSheet } from 'react-native'
 
 const Header = () => {
   const { header, headerTitle} = styles
+  const { primary } = colors
   return (
     <View style={header}>
       <Text style={headerTitle}>Guess a Number</Text>
